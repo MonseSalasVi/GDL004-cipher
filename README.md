@@ -41,9 +41,9 @@ Ya cifra, pero el boton de decifrar cifra.
 
 
 ### feedback
-Agregar un selector de desplazamiento
-Los botoes y el desplazamiento esten al inicio
-Agregar un color de fondo y editar los colores del texto
+- [ ] Agregar un selector de desplazamiento
+- [ ] Los botoes y el desplazamiento esten al inicio
+- [ ] Agregar un color de fondo y editar los colores del texto
 
 
 ### Prototipo Final
