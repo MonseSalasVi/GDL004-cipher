@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class = "bienvenida" >
+    <h1> Cartas a Julieta </h1>
+
+  </div>
+<hr>
+</header>
+
+<!--:parrafo de instrucciones  -->
+<div id= "informacion">
+<p> En esta pagina puedes cifrar un texto que desees que sea secreto para tu enamorad@.
+  <br>
+No olvides que al compartir debes dar la clave </p>
+</div>
+  <!-- espacio para elegir el #de desplazamiento    agregar un action al form (es el que envia
+  la info a otr lado y agregar a value una variable (es la que recibe el desplazamiento) ):  -->
+
+  <form id= "desplazamiento">
+    <label for="desplazamiento"> Clave </label>
+    <input id = "clave" name= "desplazamiento" type="number" min="1" max= "10">
+
+  </form>
+  <!--: botones de cifrar y desifrar agregar un onclick y ligarla a las funciones-->
+  <button  id="encodeButton" value = "1" > Cifrar </button>
+  <button id="decodeButton" value = "2">  Descifrar </button>
+
+
+  <!-- Cuadro que recibe el texto a traducir:  -->
+  <div class="cuadro_de_texto">
+    <textarea id="cuadro_de_texto"></textarea>
+  </div>
+
+
+  <!-- cuadro que retorna lo traducido:  -->
+  <div class="cuadro_retorno">
+    <textarea id="cuadro_retorno" value = ""></textarea>
+  </div>
+
+
+
+
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
 </html>
