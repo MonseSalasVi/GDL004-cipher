@@ -3,7 +3,7 @@ html{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("foto3.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   background-attachment: scroll;
 }
@@ -13,7 +13,7 @@ h1{
 }
 
 p{
-  color: #8673A0;
+  color:  #8F558E;
 
 }
 

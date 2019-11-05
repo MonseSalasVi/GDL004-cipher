@@ -18,7 +18,7 @@ window.cipher = {
     return textoCifrado;
   },
   decode:(textoACifrar, clave )=>{
-    let esValido = validacion(); //si no hay espacios en clave/texto continua
+    //let esValido = validacion(); //si no hay espacios en clave/texto continua
     let letraASCII;
     let formula;
     let asciiALetra;

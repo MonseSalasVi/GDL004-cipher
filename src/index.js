@@ -7,7 +7,7 @@ let letraACodigo;
 
 //fucnion validacion, si encuentra espacios en blanco en la clave y texto a cifrar
 function validacion(e) {
-  console.log()
+  valoresBotones = e.target.value // Toma el valor de mis botones
   clave = document.getElementById("clave").value; //toma el texto que escriben
   texto = document.getElementById('cuadro_de_texto').value; //lo cambia a mayusculas
   textoACifrar = texto.toUpperCase(); //mayusculas
@@ -20,15 +20,15 @@ function validacion(e) {
     alert("No se pueden cifrar numeros");
     return false;
   } else {
-
-    value1 = document.getElementById("encodeButton").value
-    value2 = document.getElementById("decodeButton").value
-    console.log(typeof value2)
-    if(value1 = "1"){
-
+    if(valoresBotones === "1"){ //si miboton es igual a1 cifrar
+      console.log("en encode")
       document.getElementById("cuadro_retorno").value = window.cipher.encode(textoACifrar,clave);
-    }else if (value2 = "1"){
+    }else if (valoresBotones === "2"){ //si mi boton es igual 2 desifrar
+      //console.log(valoresBotones)
+      //console.log("en decode")
       document.getElementById("cuadro_retorno").value = window.cipher.decode(textoACifrar,clave);
+      //console.log("en decode 2")
+
     }
 
 

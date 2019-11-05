@@ -44,14 +44,3 @@ Los botoes y el desplazamiento esten al inicio
 
 
 ### Prototipo Final
-
-
-
-
-### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
-
-### ESLint y Sintaxis
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter (ESLint).
