@@ -10,10 +10,10 @@ window.cipher = {
       formula = (((letraASCII - 65 + parseInt(clave))%26)+65); //formula para recorrer los desplazamientos de letra x letra
 
       if (letraASCII === 32) { // Si el valor de letraASCII es un ESPACIO
-        formula = 32
+        formula = 32;
       }
-      asciiALetra = String.fromCharCode(formula) // valor ascii a letra
-      textoCifrado = textoCifrado + asciiALetra //crear una variable que guarde mis letras
+      asciiALetra = String.fromCharCode(formula); // valor ascii a letra
+      textoCifrado = textoCifrado + asciiALetra; //crear una variable que guarde mis letras
     }
     return textoCifrado;
   },
@@ -28,12 +28,12 @@ window.cipher = {
       formula = (((letraASCII + 65 - parseInt(clave))%26)+65); //formula para recorrer los desplazamientos de letra x letra
 
       if (letraASCII === 32) { // Si el valor de letraASCII es un ESPACIO
-        formula = 32
+        formula = 32;
       }
-      asciiALetra = String.fromCharCode(formula) // valor ascii a letra
-      textoCifrado = textoCifrado + asciiALetra //crear una variable que guarde mis letras
+      asciiALetra = String.fromCharCode(formula); // valor ascii a letra
+      textoCifrado = textoCifrado + asciiALetra; //crear una variable que guarde mis letras
     }
-    console.log(textoCifrado)
+    console.log(textoCifrado);
     return textoCifrado;
   }
-}
+};
