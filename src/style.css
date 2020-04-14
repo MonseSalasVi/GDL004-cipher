@@ -1,24 +1,65 @@
-html{
-  background-color: #FCFAFA;
-  text-align: center;
+html {
+  background-color: #ffdfdf;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("foto3.jpg");
-  background-repeat: repeat;
-  background-position: center;
-  background-attachment: scroll;
-}
-
-h1{
-  color: #F95F98;
-}
-
-p{
-  color:  #8F558E;
+  text-align: center;
+  margin:4px;
 
 }
 
-label{
-border-color: #000000
+.bienvenida {
+  color: #7d5d5d;
+  font-size: 20px;
+}
+
+.informacion {
+  color: #b38585;
+  font-size: 18px;
+}
+
+.desplazamiento {
+  margin: 5px;
+  color: #b38585;
+  font-size: 17px;
+}
+
+#clave {
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.btns {
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 8px 20px;
+  border: 2px solid #7d5d5d;
+  color: #7d5d5d;
+  font-size: 17px;
+}
+
+.btns:hover {
+  background-color: #7d5d5d;
+  color: white;
+}
+
+.cuadros{
+display: flex;
+justify-content: space-around;
+}
+
+textarea{
+  margin: 10px;
+  height: 300px;
+  width: 500px;
+  border: 2px solid #7d5d5d;
+  border-radius: 5px;
+  font-size: 17px;
+  color:#b38585 ;
+  text-transform: uppercase;
+
+  
+}
+/* label {
+  border-color: #000000; 
   color:#FFCEE0;
 }
 
@@ -30,16 +71,18 @@ input[type=number] {
   background-color: #F95F98;
   padding: 5px 10px
 }
-button{
-  font-weight:bold;
+
+button {
+  font-weight: bold;
   font-size: 15px;
   color: black;
   border-color: #FF8896;
   border: 2px solid;
- border-radius: 6px;
- background-color: #F9B9E8;
- padding: 8px 16px;
+  border-radius: 6px;
+  background-color: #F9B9E8;
+  padding: 8px 16px;
 }
+
 textarea {
   width: 50%;
   height: 130px;
@@ -53,8 +96,8 @@ textarea {
   text-transform: uppercase;
 }
 
-.cuadro_de_texto{
-vertical-align: top;
+.cuadro_de_texto {
+  vertical-align: top;
 }
-.cuadro_retorno{
-}
+
+.cuadro_retorno {} */

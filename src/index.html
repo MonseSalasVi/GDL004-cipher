@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<header>
-  <div class = "bienvenida" >
-    <h1> Cartas a Julieta </h1>
+  <header>
+    <div class="bienvenida">
+      <h1> Cartas a Julieta </h1>
+    </div>
+    <hr>
+  </header>
 
+  <!--:parrafo de instrucciones  -->
+  <div class="informacion">
+    <p> En esta pagina puedes cifrar un texto que desees que sea secreto para tu enamorad@.
+      <br>
+      No olvides que al compartir debes dar la clave </p>
   </div>
-<hr>
-</header>
-
-<!--:parrafo de instrucciones  -->
-<div id= "informacion">
-<p> En esta pagina puedes cifrar un texto que desees que sea secreto para tu enamorad@.
-  <br>
-No olvides que al compartir debes dar la clave </p>
-</div>
   <!-- espacio para elegir el #de desplazamiento    agregar un action al form (es el que envia
   la info a otr lado y agregar a value una variable (es la que recibe el desplazamiento) ):  -->
 
-  <form id= "desplazamiento">
+  <form class ="desplazamiento">
     <label for="desplazamiento"> Clave </label>
-    <input id = "clave" name= "desplazamiento" type="number" min="1" max= "50">
-
+    <input id="clave" name="desplazamiento" type="number" min="1" max="50">
   </form>
+  <div class = 'div-btns'>
   <!--: botones de cifrar y desifrar agregar un onclick y ligarla a las funciones-->
-  <button  id="encodeButton" value = "1"> Cifrar </button>
-  <button id="decodeButton" value = "2">  Descifrar </button>
-
+  <button id="encodeButton" value="1" class='btns'> Cifrar </button>
+  <button id="decodeButton" value="2" class='btns'> Descifrar </button>
+</div>
 
   <!-- Cuadro que recibe el texto a traducir:  -->
-  <div class="cuadro_de_texto">
-    <textarea id="cuadro_de_texto" placeholder="Escribe aqui"> </textarea>
+  <div class='cuadros'>
+    <div class="cuadro_de_texto">
+      <textarea id="cuadro_de_texto" placeholder="Escribe aqui"> </textarea>
+    </div>
+
+
+    <!-- cuadro que retorna lo traducido:  -->
+    <div class="cuadro_retorno">
+      <textarea id="cuadro_retorno" value=""> </textarea>
+    </div>
   </div>
-
-
-  <!-- cuadro que retorna lo traducido:  -->
-  <div class="cuadro_retorno">
-    <textarea id="cuadro_retorno" value = ""> </textarea>
-  </div>
-
 
 
 
@@ -51,4 +53,5 @@ No olvides que al compartir debes dar la clave </p>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
+
 </html>
