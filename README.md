@@ -15,7 +15,7 @@ Este proyecto se basa en el cifrado cesar. Cifra y descifra para que la gente pu
 
 
 ## 2. Imagen final
-![src/readme fotos/finalcipher.png](https://raw.githubusercontent.com/MonseSalasVi/GDL004-cipher/master/src/readme%20fotos/finalcipher.png)
+![src/readme fotos/finalcipher.png](https://raw.githubusercontent.com/MonseSalasVi/GDL004-cipher/master/src/readme%20fotos/Captura%20de%20Pantalla%202020-04-14%20a%20la(s)%2010.12.30.png)
 En este proyecto agrege estilos con css, una imagen de fondo y experimente jugando con los colores.
 Con HTML agrege las cosas importantes, como los botones y cuadros de texto.
 En JS interactue con los datos para recibir y retornar los resultados.
